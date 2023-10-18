@@ -1,0 +1,411 @@
+{
+  "lang" : {
+    "en": {
+      "walkthrough": {
+        "filter-category": {
+          "title": "Category Filter",
+          "text": "Filter flyer products by category"
+        },
+        "filter-waysToSave": {
+          "title": "Ways to Save",
+          "text": "Ways to save on your favorite items"
+        }
+      },
+      "flyerSelector": {
+        "showFlyers": "See More Flyers",
+        "hideFlyers": "Close Flyers",
+        "viewFlyer": "View flyer",
+        "previewFlyer": "Preview Flyer"
+      },
+      "featureMasthead": {
+        "validityDates": {
+          "format": "Valid from: <span style='color:rgb(233, 91, 91)'>{ startDate|MM/D/YY }</span> to <span style='color:rgb(233, 91, 91)'>{ endDate|MM/D/YY }</span>"
+        }
+      },
+      "featureHeader": {
+        "clientName": "Metro"
+      }
+    },
+    "fr": {
+      "featureMasthead": {
+        "validityDates": {
+          "format": "Valide du: <span style='color:rgb(233, 91, 91)'>{ startDate|MM/D/YY }</span> au <span style='color:rgb(233, 91, 91)'>{ endDate|MM/D/YY }</span>"
+        }
+      },
+      "flyerSelector": {
+        "showFlyers": "Voir plus de circulaires",
+        "hideFlyers": "Fermer les circulaires",
+        "viewFlyer": "Voir circulaire",
+        "previewFlyer": "Consulter la circulaire"
+      },
+      "featureHeader": {
+        "clientName": "Métro"
+      }
+    }
+  },
+  "branding": {
+    "primaryColor": "#545454",
+    "secondaryColor": "#EE3124",
+    "tertiaryColor": "#00A651",
+    "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+    "logo": {
+      "altText": "Metro QUE",
+      "size": {
+        "desktop": "https://metrocommonapi.blob.core.windows.net/74841/masterheadlogos/Desktop_SuperCv2_EN.jpg",
+        "mobile": "https://metrocommonapistaging.blob.core.windows.net/74865/masterheadlogos/"
+      }
+    },
+    "scrollArea": {
+      "scrollButton": {
+        "background": "#000000"
+      }
+    },
+    "helpScreenImage": "https://metrocommonapistaging.blob.core.windows.net/74865/helpScreenImages/helpscreen_eng_new.png",
+    "backgroundColor": null,
+    "font": null,
+    "disclaimerFont": null,
+    "landingPageMessage": null,
+    "walkthroughContent": "test walkthrough content EN",
+    "rewardsButtonTitle": "",
+    "cssVars" : {
+
+    }
+  },
+  "events": {
+    "productRegionClick": {
+      "postMessage": {
+        "offerType": "Generic",
+        "type": "ITEM_POP",
+        "item": {
+          "sku": "__self.product.sku",
+          "flyerTypeNameIdentifier": "flyer"
+        },
+        "location": {
+          "page": "__self.currentPageNumber",
+          "flyerId": "__self.currentFlyer.title",
+          "storeId": "__self.storeId",
+          "language": "__self.language"
+        }
+      },
+      "analytic": {
+        "event": "tiles_click",
+        "data": {
+          "eventCategory": "tilesClick",
+          "eventAction": "__self.sku",
+          "eventLabel": "__self.product.productEn",
+          "block_id": "__self.product.productBlockId",
+          "product_name": "__self.product.productEn"
+        }
+      }
+    },
+    "emailSignUp": {
+      "postMessage": {
+        "type": "EMAIL_POP"
+      },
+      "analytic": {
+        "event": "email_sign_up",
+        "data": {}
+      }
+    },
+    "share-button-click": {
+      "postMessage": {
+        "direction": "from-iframe",
+        "event": "share",
+        "data": {
+          "showDialog[bool]": true
+        }
+      }
+    }
+  },
+  "features": {
+    "filters": [],
+    "filterPanel": {
+      "type": "inline",
+      "showClearButton": true,
+      "filters": []
+    },
+    "flyerSelector": {
+      "mode": "inline",
+      "position": "left",
+      "autoClose": false,
+      "isVisible": true,
+      "styles": {
+        "background-color": "#fff"
+      },
+      "flyerThumb": {
+        "dateFormat": "MMM DD"
+      },
+      "_flyerOrientation": {
+        "+vertical": {
+          "position": "top"
+        }
+      },
+      "_display": {
+        "+desktop": {
+          "defaultVisibility": true
+        },
+        "[+mobile, +tablet]": {
+          "defaultVisibility": false
+        }
+      }
+    },
+    "pdp": {
+      "enabled": true,
+      "mode": "internal",
+      "post": {
+        "type": "ITEM_POP",
+        "item": {
+          "sku": "__product.sku",
+          "flyerTypeNameIdentifier": "flyer",
+          "publicationId": "__flyer.id",
+          "flyerId": "__flyer.flyerId",
+          "dealNumber": "__flyer.title",
+          "productBlockId": "__product.productBlockId",
+          "offerType": "Generic",
+          "productEn": "__product.productEn",
+          "productFr": "__product.productFr",
+          "mainCategoryEn": "__product.mainCategoryEn",
+          "mainCategoryFr": "__product.mainCategoryFr",
+          "subCategoryEn": "__product.subCategoryEn",
+          "subCategoryFr": "__product.subCategoryFr",
+          "description": "__product.description",
+          "productImage": "__product.productImage",
+          "salePrice": "__product.salePrice",
+          "regularPrice": "__product.regularPrice",
+          "alternatePriceFr": "__product.alternatePriceFr",
+          "alternatePrice": "__product.alternatePrice",
+          "promoUnitFr": "__product.promoUnitFr",
+          "priceQuantity": "__product.priceQuantity",
+          "pageNumber[int]": "__root.currentPageNumber",
+          "savingsFr": "__product.savingsFr",
+          "savingsPrefix": "__product.savingsPrefix",
+          "savingsSuffix": "__product.savingsSuffix",
+          "bodyEn": "__product.bodyEn",
+          "bodyFr": "__product.bodyFr",
+          "content": "__product.contents",
+          "validFrom[date]": "__flyer.startDate",
+          "validTo[date]": "__flyer.endDate"
+        }
+      }
+    },
+    "shoppingList": {
+      "enabled": false
+    },
+    "walkthrough": true,
+    "pageNumberOnScroll": false,
+    "helpScreen": {
+      "toggleButton": {
+        "attrs": {
+          "style": {
+            "--button-text-color-active": "#fff",
+            "--button-text-color-active-hover": "#fff",
+            "--button-background-active": "#E7131A",
+            "--button-background-active-hover": "#ca1f25"
+          }
+        }
+      },
+      "sections": [
+        {
+          "title": "__self.content.howto.tip",
+          "items": [
+            {
+              "type": "feature-box",
+              "title": "__self.content.howto.flyerList",
+              "icon": {
+                "src": "/icons/icon-flyerdrawer_v1.svg"
+              },
+              "desc": "__self.content.howto.flyerListSubtitle"
+            },
+            {
+              "type": "feature-box",
+              "title": "__self.content.howto.search",
+              "icon": {
+                "html": "<button data-v-c356a218=\"\" data-v-3f379896=\"\" aria-label=\"Search &amp; Filter\" class=\"search-toggle btn has-tooltip\"><svg data-v-c356a218=\"\" data-v-3f379896=\"\" data-v-29e8c3c6=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 512 512\"><path data-v-c356a218=\"\" data-v-3f379896=\"\" data-v-29e8c3c6=\"\" fill=\"currentColor\" d=\"M495 466.2L377.2 348.4c29.2-35.6 46.8-81.2 46.8-130.9C424 103.5 331.5 11 217.5 11 103.4 11 11 103.5 11 217.5S103.4 424 217.5 424c49.7 0 95.2-17.5 130.8-46.7L466.1 495c8 8 20.9 8 28.9 0 8-7.9 8-20.9 0-28.8zm-277.5-83.3C126.2 382.9 52 308.7 52 217.5S126.2 52 217.5 52C308.7 52 383 126.3 383 217.5s-74.3 165.4-165.5 165.4z\"></path></svg></button>"
+              },
+              "desc": "__self.content.howto.filter"
+            },
+            {
+              "type": "feature-box",
+              "title": "__self.content.howto.pdf",
+              "icon": {
+                "html": "<a class=\"pdf-btn btn has-tooltip\">\n                          <img alt=\"Download PDF\" src=\"/images/icon-pdf.svg\">\n                        </a>"
+              },
+              "desc": "__self.content.howto.download"
+            },
+            {
+              "type": "feature-box",
+              "title": "__self.content.howto.details",
+              "icon": {
+                "src": "/icons/icon-hand-point.svg"
+              },
+              "desc": "__self.content.howto.detailsText"
+            }
+          ]
+        },
+        {
+          "title": "__self.content.howto.screen",
+          "items": [
+            {
+              "type": "feature-box",
+              "title": "__self.content.howto.zoom",
+              "icon": {
+                "src": "/icons/helpscreen/icon - zoom.svg"
+              },
+              "desc": "__self.content.howto.symbols"
+            },
+            {
+              "type": "feature-box",
+              "title": "__self.content.howto.toggle",
+              "icon": {
+                "src": "/icons/helpscreen/icon - screen view horz.svg"
+              },
+              "desc": "__self.content.howto.horizontal"
+            },
+            {
+              "type": "feature-box",
+              "title": "__self.content.howto.fullscreen",
+              "icon": {
+                "html": "<div data-v-365dc17e=\"\" class=\"btn btn--lg\"><svg data-v-365dc17e=\"\" width=\"18\" height=\"18\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 14 14\"><path data-v-365dc17e=\"\" d=\"M2 9H0v5h5v-2H2V9zM0 5h2V2h3V0H0v5zm12 7H9v2h5V9h-2v3zM9 0v2h3v3h2V0H9z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg></div>"
+              },
+              "desc": "__self.content.howto.fullscreenText"
+            }
+          ]
+        },
+        {
+          "title": "__self.content.howto.nav",
+          "items": [
+            {
+              "type": "feature-box",
+              "title": "__self.content.howto.pageScroll",
+              "icon": {
+                "html": "<div class=\"button-preview\">\n                          <div class=\"btn btn--lg page\">\n                            <div class=\"page-num\">Page 5 OF 30</div>\n                          </div>\n                        </div>"
+              },
+              "desc": "__self.content.howto.scroll"
+            },
+            {
+              "type": "feature-box",
+              "title": "__self.content.howto.drag",
+              "icon": {
+                "src": "/icons/icon-onefinger-dragall.svg"
+              },
+              "desc": "__self.content.howto.dragText"
+            }
+          ]
+        }
+      ],
+      "_display": {
+        "[tablet, mobile]": {
+          "sections": [
+            {
+              "items": [
+                {
+                  "type": "feature-box",
+                  "title": "__self.content.howto.flyerList",
+                  "icon": {
+                    "src": "/icons/icon-flyerdrawer_v1.svg"
+                  },
+                  "desc": "__self.content.howto.flyerListSubtitle"
+                },
+                {
+                  "type": "feature-box",
+                  "title": "__self.content.howto.search",
+                  "icon": {
+                    "html": "<button data-v-c356a218=\"\" data-v-3f379896=\"\" aria-label=\"Search &amp; Filter\" class=\"search-toggle btn has-tooltip\"><svg data-v-c356a218=\"\" data-v-3f379896=\"\" data-v-29e8c3c6=\"\" xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 512 512\"><path data-v-c356a218=\"\" data-v-3f379896=\"\" data-v-29e8c3c6=\"\" fill=\"currentColor\" d=\"M495 466.2L377.2 348.4c29.2-35.6 46.8-81.2 46.8-130.9C424 103.5 331.5 11 217.5 11 103.4 11 11 103.5 11 217.5S103.4 424 217.5 424c49.7 0 95.2-17.5 130.8-46.7L466.1 495c8 8 20.9 8 28.9 0 8-7.9 8-20.9 0-28.8zm-277.5-83.3C126.2 382.9 52 308.7 52 217.5S126.2 52 217.5 52C308.7 52 383 126.3 383 217.5s-74.3 165.4-165.5 165.4z\"></path></svg></button>"
+                  },
+                  "desc": "__self.content.howto.filter"
+                },
+                {
+                  "type": "feature-box",
+                  "title": "__self.content.howto.pdf",
+                  "icon": {
+                    "html": "<a class=\"pdf-btn btn has-tooltip\">\n                          <img alt=\"Download PDF\" src=\"/images/icon-pdf.svg\">\n                        </a>"
+                  },
+                  "desc": "__self.content.howto.download"
+                },
+                {
+                  "type": "feature-box",
+                  "title": "__self.content.howto.details",
+                  "icon": {
+                    "src": "/icons/icon-hand-point.svg"
+                  },
+                  "desc": "__self.content.howto.detailsText"
+                },
+                {
+                  "type": "feature-box",
+                  "title": "__self.content.howto.nav",
+                  "icon": {
+                    "src": "/images/icon-navigation.svg"
+                  },
+                  "desc": "__self.content.howto.navMob"
+                },
+                {
+                  "type": "feature-box",
+                  "title": "__self.content.howto.fullscreen",
+                  "icon": {
+                    "html": "<div data-v-365dc17e=\"\" class=\"btn btn--lg\"><svg data-v-365dc17e=\"\" width=\"18\" height=\"18\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 14 14\"><path data-v-365dc17e=\"\" d=\"M2 9H0v5h5v-2H2V9zM0 5h2V2h3V0H0v5zm12 7H9v2h5V9h-2v3zM9 0v2h3v3h2V0H9z\" fill=\"currentColor\" fill-rule=\"nonzero\"></path></svg></div>"
+                  },
+                  "desc": "__self.content.howto.fullscreenText"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "css": ".box {\n\tborder: 3px solid hsla(0,0%,73.3%,.3);\n    color: #333;\n    cursor: auto;\n    padding: 10px;\n    width: 162px;\n    height: 103px;\n}\n.sign-in {\n    display: flex;\n    align-items: center;\n    padding: 5px 12px;\n    border: 0;\n    background-color: #78dfd5;\n    color: #000;\n    font-size: 13px;\n    border-radius: 0;\n    width: 104px;\n    height: 25px;\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);\n    margin: auto;\n    margin-bottom: 0.5em;\n}\n.weeklypicks-image {\n\twidth: 63px;\n}"
+    },
+    "mastHead": {
+      "logo": {
+        "alt": "Metro Ont",
+        "src": "https://cdn.raddar.ca/retailers/metro/logo-en.svg"
+      },
+      "validityDates": {
+        "format": "__self.lang.featureMasthead.validityDates.format",
+        "attrs": {
+          "style": {
+            "font-size": "16px",
+            "font-weight": "700"
+          }
+        }
+      }
+    },
+    "header": {
+      "controls": {
+        "items": [
+          "zoom",
+          "orientation",
+          "separator",
+          "pdf-download",
+          "share",
+          "favs"
+
+        ],
+        "attrs": {
+          "style": {
+            "padding-right": "1em"
+          }
+        },
+        "_display": {
+          "[tablet, mobile]": {
+            "items": [
+              "pdf-download",
+              "share",
+              "favs"
+            ],
+            "attrs": {
+              "style": {
+                "height":"50px",
+                "padding": "0em 1em 0 0",
+                "justify-content": "end"
+              }
+            }
+          }
+        }
+      },
+      "inline": [
+        "mastHead",
+        "controls"
+      ],
+      "css": "[mode='tablet'] &, [mode='mobile'] &{\n    .mast-head {\n        justify-content: space-between;  \n        background-color: rgb(245, 245, 245);\n    }\n    \n}\n.mast-head{\n    padding: 1em;  \n}\n                 \n.logo-masthead {\n\n    img{\n        height: 0.6em;\n        padding: 0 0.5em;\n    }   \n    &::after{\n        font-weight: 600;\n        content: \"__self.lang.featureHeader.clientName\";\n    }\n}"
+    }
+  }
+}

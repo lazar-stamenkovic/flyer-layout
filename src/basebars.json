@@ -1,0 +1,48 @@
+{
+    "desktop":[
+        "basebars/desktop/Tab_Sng_Canadas Garage_Loyalty.jpg",
+        "basebars/desktop/Tab_Sng_Canadas Garage_Service All Makes.jpg",
+        "basebars/desktop/Tab_Sng_Canadas Garage_Tire Warranty.jpg",
+        "basebars/desktop/Tab_Sng_Clearance_339_32.jpg",
+        "basebars/desktop/Tab_Sng_In Store Pickup_F.jpg",
+        "basebars/desktop/Tab_Sng_ISF_A.jpg",
+        "basebars/desktop/Tab_Sng_Jumpstart_JMP1.jpg",
+        "basebars/desktop/Tab_Sng_Loyalty.jpg",
+        "basebars/desktop/Tab_Sng_Roadside Assistance.jpg",
+        "basebars/desktop/Tab_Sng_Ship To Home_D.jpg",
+        "basebars/desktop/Tab_Spr_ISF_A_L.jpg",
+        "basebars/desktop/Tab_Spr_ISF_A_R.jpg",
+        "basebars/desktop/Tab_Spr_Jumpstart_JMP4_L.jpg",
+        "basebars/desktop/Tab_Spr_Jumpstart_JMP4_R.jpg",
+        "basebars/desktop/Tab_Spr_Loyalty_L.jpg",
+        "basebars/desktop/Tab_Spr_Loyalty_R.jpg"
+    ],
+    "mobile":[
+        "basebars/mobile/Mobile_Canadas Garage_Loyalty.jpg",
+        "basebars/mobile/Mobile_Canadas Garage_Service All Makes.jpg",
+        "basebars/mobile/Mobile_Canadas Garage_Tire Warranty.jpg",
+        "basebars/mobile/Mobile_Clearance_339_32.jpg",
+        "basebars/mobile/Mobile_In Store Pickup_F.jpg",
+        "basebars/mobile/Mobile_ISF_A.jpg",
+        "basebars/mobile/Mobile_Jumpstart_JMP4.jpg",
+        "basebars/mobile/Mobile_Loyalty.jpg",
+        "basebars/mobile/Mobile_Roadside Assistance.jpg",
+        "basebars/mobile/Mobile_Ship To Home_D.jpg"
+    ],
+    "tablet":[
+        "basebars/tablet/bb1.jpg",
+        "basebars/tablet/bb2.jpg",
+        "basebars/tablet/bb3.jpg"
+    ],
+    "nb":[
+        "basebars/nb/bb1.jpg",
+        "basebars/nb/bb2.jpg",
+        "basebars/nb/bb3.jpg"
+    ],
+    "tab":[
+        "basebars/tab/bb1.jpg",
+        "basebars/tab/bb2.jpg",
+        "basebars/tab/bb3.jpg"
+    ]
+
+}

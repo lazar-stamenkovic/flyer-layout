@@ -1,0 +1,270 @@
+{
+  "loading": "Chargement…",
+  "otherFlyers": "Autres circulaires",
+  "seeOtherFlyers": "Voir autres circulaires",
+  "flyerList":"Listes des circulaires",
+  "helpToolTip": "Aide et conseils",
+  "downloadPDF": "Télécharger le PDF",
+  "openSideBar":"Ouvrez la liste des circulaires",
+  "closeSideBar":"Fermez la liste des circulaires",
+  "toggleSearch": "Basculer le mode Rechercher",
+  "zoomOut": "Zoom arrière",
+  "zoomIn": "Zoom avant",
+  "toggleView": "Basculer le mode Vue",
+  "toggleFullscreen": "Basculer le mode Plein écran",
+  "resetZoom": "Réinitialiser le zoom",
+  "shoppingListToolTip": "Liste d'épicerie",
+  "searchFlyer": "Rechercher dans la circulaire",
+  "filterBy": "Filtrer par",
+  "localProduct":"Product d'ici",
+  "waysToSave": " Façons d’économiser",
+  "productQuebec": "Produit du Québec",
+  "healthyChoices": "Mieux choisir Mieux vivre",
+  "metroMoi":"Metro & Moi",
+  "points": "Points",
+  "memberPrice": "Prix membre",
+  "airMiles": "AIR MILES",
+  "category": "Catégorie",
+  "byCategory": "Par catégorie",
+  "byWayToSave": "Façons d’économiser",
+  "discount": "Rabais",
+  "byDiscount": "Par rabais",
+  "none": "Aucun",
+  "exitSearch": "Quitter le mode Rechercher",
+  "clear": "Effacer",
+  "all": "Tout",
+  "searchFilter": "Rechercher et filtrer",
+  "dateValidity": "Valide à partir de",
+  "legalDisclaimer": "Conditions légales.",
+  "landing": {
+    "introduction": "VOICI LA",
+    "title":
+    "Une toute nouvelle expérience de consultation de la circulaire",
+    "subtitle":
+    "Trouvez tout ce dont vous avez besoin plus facilement et plus rapidement ",
+    "searchResults": "Résultats de recherche consolidés",
+    "relevantProducts":
+    "Amélioration des filtres et des outils de recherche",
+    "flexible": "Multiple desktop views",
+    "modes":
+    "Navigation plus facile et optimisée pour tous types d’appareils",
+    "mobile": "Improved mobile experience",
+    "fullScreen": "Affichage optimisé pour tous les types d’appareils",
+    "shoppingList":
+    "Votre liste d'épicerie directement dans la circulaire",
+    "viewWeekly": "Voir Circulaire hebdomadaire",
+    "canadaStore": "le meilleur rapport qualité prix",
+    "otherPubs": "Autres publications Canadian Tire",
+    "viewFlyer": "Voir circulaire",
+    "valid": "Valide",
+    "preview": "APERÇU\nla prochaine\ncirculaire"
+  },
+  "hamburger": {
+    "otherPubs": "Autres dépliants",
+    "help": "Aide et conseils",
+    "viewFullScreen": "Afficher en plein écran",
+    "exitFullScreen": "Quitter plein écran"
+  },
+  "walkthrough": {
+    "sidebar":{
+      "title": "Listes des circulaires",
+      "text": "Cliquez pour visualiser d’autres circulaires et publications"
+    },
+    "otherFlyers": {
+      "title": "Autres circulaires",
+      "text":
+      "Cliquez pour voir d’autres circulaires et autres publications disponibles."
+    },
+    "pdf": {
+      "title": "PDF",
+      "text":
+      "Cliquez pour télécharger un exemplaire de la circulaire. Partagez le fichier PDF ou sauvegardez-le pour une consultation hors ligne."
+    },
+    "zoom": {
+      "title": "Zoom",
+      "text":
+      "Faites un zoom avant pour voir de plus près les détails et les images, faites un zoom arrière pour voir davantage d’aubaines intéressantes en même temps."
+    },
+    "orientation": {
+      "title": "Sens de défilement",
+      "text":
+      "Cliquez une fois pour passer en mode de défilement vertical. Cliquez une seconde fois pour revenir en mode de défilement horizontal."
+    },
+    "fullscreen": {
+      "title": "Plein écran",
+      "text":
+      "Cliquez pour visualiser la circulaire dans le site metro.ca  et cliquez une autre fois pour la visualiser en mode plein écran."
+    },
+    "searchFilter": {
+      "title": "Rechercher et filtrer",
+      "text":
+      "Utilisez notre nouvelle fonction Rechercher et filtrer pour une navigation plus aisée."
+    },
+    "help": {
+      "title": "Bouton Aide",
+      "text":
+      "Cliquez pour voir plus de détails sur les fonctions et les outils de navigation de la circulaire."
+    },
+    "search": {
+      "title": "Rechercher",
+      "text":
+      "Inscrivez un mot-clé pour retrouver facilement les produits qui vous intéressent"
+    },
+    "filterCategories": {
+      "title": "Filtrer par catégorie",
+      "text":
+      "Affinez votre recherche en sélectionnant différentes catégories"
+    },
+    "discountFilter": {
+      "title": "Filtrer par rabais",
+      "text":
+      "À la recherche d’une aubaine? Raffinez votre recherche selon le niveau de rabais qui vous intéresse"
+    },
+    "clearDiscount": {
+      "title": "Effacer",
+      "text":
+      "Cliquez pour réinitialiser votre recherche ou pour effacer tous les filtres sélectionnés"
+    },
+    "shoppingList": {
+      "title": "Liste d’achats",
+      "text":
+      "Cliquez pour voir tous les articles que vous avez ajoutés à votre liste"
+    },
+    "exitSearch": {
+      "title": "Quitter le mode Rechercher",
+      "text": "Cliquez pour fermer les fonctions Rechercher et Filtrer"
+    }
+  },
+  "tip": "Conseil",
+  "restart": "Redémarrer la visite guidée",
+  "skipTour": "Sauter la visite guidée",
+  "next": "Suivant",
+  "finish": "Terminer",
+  "of": "de",
+  "howto": {
+    "help": "Fonctions et outils de navigation de la circulaire",
+    "tip": "Fonctions de la circulaire",
+    "screen": "Options de visualisation",
+    "nav": "Navigation des pages",
+    "navMob":
+    "Balayez vers le haut et vers le bas pour parcourir les pages et faites un geste de pincement pour effectuer un zoom avant ou arrière.",
+    "other": "Autres circulaires",
+    "flyerList":"Listes des circulaires",
+    "flyerListSubtitle":"Cliquez pour visualiser d’autres circulaires et publications",
+    "click":
+    "Cliquez pour consulter d’autres circulaires et autres publications",
+    "searchBtn": "Rechercher et Filtrer",
+    "search": "Rechercher et Filtrer",
+    "searchMob": "Rechercher",
+    "filter":
+    "Cliquez pour débuter la recherche par mots-clés et/ou filtrer par façons d’économiser ou catégories.",
+    "filterMob":
+    "Inscrivez un mot-clé pour retrouver facilement les produits qui vous intéressent.",
+    "filterSingle": "Filtrer",
+    "filterSingleText":
+    "Cliquez pour filtrer par rabais ou par catégorie.",
+    "pdf": "PDF",
+    "download":
+    "Cliquez pour télécharger un exemplaire de la circulaire. Partagez le fichier PDF ou sauvegardez-le pour une consultation hors ligne.",
+    "zoom": "Zoom",
+    "symbols":
+    "Faites un zoom avant pour voir de plus près les détails et les images, un zoom arrière pour voir davantage d’aubaines intéressantes en même temps",
+    "toggle": "vue Basculer",
+    "horizontal":
+    "Cliquez pour alterner entre les modes de défilement horizontal et vertical",
+    "fullscreen": "Plein écran",
+    "fullscreenText":
+    "Cliquez pour visualiser la circulaire dans le site metro.ca  et cliquez une autre fois pour la visualiser en mode plein écran.",
+    "pageScroll": "Parcourir par numéro de page",
+    "scroll":
+    "Utilisez la molette de votre souris ou cliquez sur le numéro de page et faites-le glisser pour parcourir rapidement les pages de la circulaire",
+    "drag": "Faire glisser pour parcourir",
+    "dragText":
+    "Cliquez sur n’importe quelle partie de la circulaire et faites glisser pour la parcourir",
+    "info":
+    "Note : Cliquer sur un produit précis vous permet de consulter plus de détails sur ce produit",
+    "tour": "Démarrer la visite guidée de la circulaire",
+    "shoppingList": "Liste d'épicerie",
+    "shoppingListText":
+    "Cliquez pour voir votre liste d'épicerie, la modifier, l'envoyer par courriel ou l'imprimer.",
+    "details": "Détails",
+    "detailsText":
+    "Cliquez sur un produit pour voir plus de détails sur ce produit"
+  },
+  "pdpTitle": "Détails du produit",
+  "pdpSavings": "d'économie",
+  "pdpAddToList": "Ajouter l'article à ma liste",
+  "pdpRemoveFromList": "Supprimer de la liste",
+  "pdpValidFrom": "En vigueur du",
+  "pdpDetails": "Détails",
+  "pdpClose": "Fermer PDP",
+  "disclaimer":
+  "En cas de désaccord entre la circulaire et la fenétre contextuelle, la circulaire est prioritaire.",
+  "shoppingList": {
+    "shoppingListPrint": "Imprimer cette page",
+    "shoppingListTitle": "Liste d'achats",
+    "productQuantityTitle": "Écrire : Qté",
+    "items": "articles",
+    "shoppingListValidFrom": "Valide du",
+    "addItem": "Ajouter",
+    "deleteItem": "Supprimer",
+    "closeShoppingList": "fermer la liste de courses",
+    "addItemPlaceholder": "Ajouter à votre liste",
+    "noItemsInSLTitle":
+    "Vous n’avez actuellement pas d’articles dans votre liste d’achats. ",
+    "noItemsInSLMsg":
+    "Cliquez sur un article dans la circulaire pour l’ajouter à votre liste ou tapez-le ci-dessous.",
+    "emailTitle": "Envoyer au courriel",
+    "emailWarning":
+    "Nous n'utiliserons pas votre adresse courriel pour les promotions ou les communications futures.",
+    "emailPlaceholder": "Entrez votre adresse courriel",
+    "emailErrorTitle": "Oups!",
+    "emailErrorMsg1": "Quelque chose a mal tourné de notre côté.",
+    "emailErrorMsg2":
+    "Nous nous excusons de tout inconvénient occasionné.",
+    "emailErrorMsg3": "Merci de réessayer plus tard.",
+    "send": "Envoyer",
+    "emailSentTitle": "Envoyer au courriel",
+    "emailSentMessage": "Votre liste d'achats a été envoyée",
+    "emailSentMessage2": "Veuilez patienter quelques secondes",
+    "emailSentResent": "Renvoyez ma liste",
+    "clearTitle":
+    "Êtes-vous sûr de vouloir supprimer tous les articles dans votre liste d’achats?",
+    "yes": "Oui",
+    "no": "Non",
+    "clearDoneMessage":
+    "Tous les articles ont été supprimés de votre liste ",
+    "clearClose": "Fermer",
+    "printDisclaimer":
+    "En cas de désaccord entre la circulaire et la fenêtre contextuelle, la circulaire est prioritaire."
+  },
+  "search": {
+    "noResultsMessage":
+    "Nous sommes désolés! Nous n'avons trouvé aucun résultat correspondant à",
+    "noResults": [
+      {
+        "title": "Vérifiez l’orthographe",
+        "message":
+        "Corriger même la moindre faute d’orthographe peut changer beaucoup les résultats trouvés!"
+      },
+      {
+        "title": "Limitez le nombre de mots clés",
+        "message":
+        "Par exemple, les résultats de recherche seront différents si vous entrez le hanburger à le beef"
+      },
+      {
+        "title": "Utilisez le filtre par catégorie",
+        "message":
+        "Supprimez votre recherche textuelle et essayez le filtre par catégorie."
+      }
+    ]
+  },
+  "noFlyersMsg": "Aucune circulaire n’est disponible en ce moment",
+  "noFlyerSubText": "Veuillez essayer de nouveau plus tard",
+  "errors": {
+    "dealNotFound": "Circulaire non trouvée",
+    "somethingWrong": "Oups! Quelque chose a mal tourné",
+    "noFlyersMsg": "Aucune circulaire n’est disponible en ce moment",
+    "noFlyerSubText": "Veuillez essayer de nouveau plus tard"
+  }
+}

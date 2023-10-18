@@ -1,0 +1,18 @@
+{
+  "api": "https://metrodigital-apim.azure-api.net/api",
+  "banner_id": "63fe18ec3e7cd81e86393c61",
+  "apikey": "0a112db32b2f42588b54063b05dfbc90",
+  "title": "Adonis",
+  "favicon": "adonis.ico",
+  "analytics": [
+	{
+	  "type": "GTM",
+	  "config": {
+		"id": "GTM-PSFRW2WP"
+	  },
+	  "config-prod": {
+		"id": "GTM-PSFRW2WP"
+	  }
+	}
+  ]
+}

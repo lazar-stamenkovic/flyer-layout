@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "sans-serif";
+  src: url(/fonts/AlrightSans-Medium.otf)
+}
+
+@font-face {
+  font-family: CTEastmanCompressed-Bold;
+  src: url(/fonts/CTEastmanCompressed-Bold.otf)
+}
+
+@font-face {
+  font-family: CTEastmanCondensed-Bold;
+  src: url(/fonts/CTEastmanCondensed-Bold.otf)
+}
+
+@font-face {
+  font-family: CTEastmanCondensed-Medium;
+  src: url(/fonts/CTEastmanCondensed-Medium.otf)
+}
+
+[mode='mobile'] .responsive-grid{
+  &[flyer-orientation='vertical']{
+	.triangle-rewards-offers{
+	  width: 32.1em;
+	  font-size: 13px;
+	}
+	.offer-list-item{
+	  width: 15.8em;
+	}
+  }
+}
+
+.responsive-grid{
+  [page-id='triangleRewards'] {
+	font-size: 9px;
+	.basebar img{
+	  /*width: 491px;*/
+	}
+	.offer-list-item{
+	  transition: transform 0.2s, box-shadow 0.2s;
+	  &:hover{
+		transform: scale3d(1.1,1.1,1);
+		z-index: 100;
+		box-shadow: 0 0 50px rgb(0 0 0 / 30%);
+	  }
+	}
+
+	.disabled .offer-list-item {
+	  filter: blur(1.5em);
+	  pointer-events: none;
+	}
+  }
+  .triangle-rewards-offers{
+	width: 49.1em;
+	font-size: 9.99px;
+	.base-bar{
+	  width: 100%;
+	}
+  }
+  &[flyer-orientation='vertical']{
+	.triangle-rewards-offers{
+	  width: auto;
+	  font-size: 10.595px;
+	  flex: 1 0 calc(50% - 0.6em);
+	}
+  }
+}
+

@@ -1,0 +1,264 @@
+{
+  "loading": "Loading…",
+  "otherFlyers": "Other Flyers",
+  "seeOtherFlyers": "See other flyers",
+  "flyerList":"Flyer List",
+  "downloadPDF": "Download PDF",
+  "openSideBar":"Open flyer list",
+  "closeSideBar":"Close flyer list",
+  "helpToolTip": "Help & Tips",
+  "toggleSearch": "Toggle Search",
+  "zoomOut": "Zoom Out",
+  "zoomIn": "Zoom In",
+  "toggleView": "Toggle View",
+  "toggleFullscreen": "Toggle Full Screen",
+  "resetZoom": "Reset Zoom",
+  "shoppingListToolTip": "Shopping List",
+  "searchFlyer": "Search Flyer",
+  "filterBy": "Filter By",
+  "localProduct":"Local Product",
+  "waysToSave": "Ways to save",
+  "brand": "Brand",
+  "productQuebec": "Product of Quebec",
+  "healthyChoices": "My Health My Choices",
+  "metroMoi":"Metro & Moi",
+  "points": "Points",
+  "memberPrice": "Member's Price",
+  "airMiles": "AIR MILES",
+  "category": "Category",
+  "byCategory": "By Category",
+  "byWayToSave": "Ways To Save",
+  "discount": "Discount",
+  "byDiscount": "By Discount",
+  "none": "None",
+  "exitSearch": "Exit",
+  "clear": "Clear",
+  "all": "All",
+  "searchFilter": "Search & Filter",
+  "dateValidity": "Valid from:",
+  "legalDisclaimer": "Legal Terms and Conditions.",
+  "landing": {
+    "introduction": "INTRODUCING THE",
+    "title": "It's a brand new digital flyer experience",
+    "subtitle":
+    "Find everything you need faster & easier than ever before",
+    "searchResults": "Consolidated search results",
+    "relevantProducts": "Enhanced search & filters",
+    "flexible": "Multiple desktop views",
+    "modes": "Easy to navigate",
+    "mobile": "Improved mobile experience",
+    "fullScreen": "Optimized views for all devices",
+    "shoppingList": "Create an in-store shopping list",
+    "viewWeekly": "Weekly Flyer",
+    "canadaStore": "The best value for your money",
+    "otherPubs": "Other Canadian Tire Publications",
+    "viewFlyer": "View Flyer",
+    "valid": "Valid",
+    "preview": "PREVIEW\nthe next flyer"
+  },
+  "hamburger": {
+    "otherPubs": "Other Publications",
+    "help": "Help",
+    "viewFullScreen": "View Full Screen",
+    "exitFullScreen": "Exit Full Screen"
+  },
+  "walkthrough": {
+    "sidebar":{
+      "title": "Flyer List",
+      "text": "Click to view other flyers and publications"
+    },
+    "otherFlyers": {
+      "title": "Other Flyers",
+      "text":
+      "Click to view other available flyers and other publications."
+    },
+    "pdf": {
+      "title": "PDF",
+      "text":
+      "Click to download a copy of the flyer. Share the PDF or save for offline browsing."
+    },
+    "zoom": {
+      "title": "Zoom",
+      "text":
+      "Zoom in for more detail and larger images, zoom out to view more great deals at once."
+    },
+    "orientation": {
+      "title": "Scroll Orientation",
+      "text":
+      "Click once to change your scrolling mode to vertical view. Click again to return to horiztonal view."
+    },
+    "fullscreen": {
+      "title": "Full Screen",
+      "text":
+      "Click to view the flyer within metro.ca and click again to view it in full screen mode."
+    },
+    "searchFilter": {
+      "title": "Search and Filter",
+      "text":
+      "Use our new search and filter feature for easier browsing."
+    },
+    "help": {
+      "title": "Help",
+      "text":
+      "Click to view more details on flyer features and navigation tools."
+    },
+    "search": {
+      "title": "Search",
+      "text":
+      "Enter a keyword and easily search for the desired products you are looking for."
+    },
+    "filterCategories": {
+      "title": "Filter By Category",
+      "text":
+      "Narrow down your discovery by selecting different categories."
+    },
+    "discountFilter": {
+      "title": "Filter By Discount",
+      "text":
+      "Looking for a deal? Focus your search to your desired discount level."
+    },
+    "clearDiscount": {
+      "title": "Clear",
+      "text":
+      "Click to reset flyer search and/or clear any selected filters."
+    },
+    "shoppingList": {
+      "title": "Shopping List",
+      "text":
+      "Click to see all the items that you have added into your list."
+    },
+    "exitSearch": {
+      "title": "Exit",
+      "text": "Click to close Search & Filter Features."
+    }
+  },
+  "tip": "Tip",
+  "restart": "Restart Tour",
+  "skipTour": "Skip Tour",
+  "next": "Next",
+  "finish": "Finish",
+  "of": "of",
+  "howto": {
+    "help": "Flyer features and navigation tools",
+    "tip": "Flyer features",
+    "screen": "View Options",
+    "nav": "Page Navigation",
+    "navMob":
+    "Swipe Up and Down to browse pages and Pinch to Zoom-In and Out.",
+    "other": "Other flyers",
+    "click":
+    "Click to view other available flyers and other publications.",
+    "flyerList":"Flyer List",
+    "flyerListSubtitle":"Click to view other flyers and publications",
+    "searchBtn": "Search & Filter",
+    "search": "Search and Filter",
+    "searchMob": "Search",
+    "filter":
+    "Click to start the keyword search and/or filter by ways to save or category",
+    "filterMob":
+    "Enter a keyword and easily search for the desired products you are looking for.",
+    "filterSingle": "Filter",
+    "filterSingleText": "Click to filter by discount or category.",
+    "pdf": "PDF",
+    "download":
+    "Click to download a copy of the flyer. Share the PDF or save for offline browsing.",
+    "zoom": "Zoom",
+    "symbols":
+    "Zoom in to increase size of offers or zoom out to decrease the size.",
+    "toggle": "Toggle view",
+    "horizontal":
+    "Click to choose your  preferred scrolling mode: horizontal or vertical.",
+    "fullscreen": "Full Screen",
+    "fullscreenText":
+    "Click to view full screen mode or click again to view the flyer within metro.ca.",
+    "pageScroll": "Page Number Scroll",
+    "scroll":
+    "‘Click & drag’ the page number to scroll through the flyer pages quickly.",
+    "drag": "Drag to Scroll",
+    "dragText":
+    "‘Click & drag’ on the flyer pages to move through the flyer more accurately.",
+    "info":
+    "Note: Clicking on a product allows you to view more details about that item.",
+    "tour": "Start Flyer Tour",
+    "shoppingList": "Shopping List",
+    "shoppingListText":
+    "Click to view your shopping list and modify, email or print for in-store shopping.",
+    "details": "Details",
+    "detailsText":
+    "Clicking on a product allows you to view more details about that item."
+  },
+  "pdpTitle": "PRODUCT DETAILS",
+  "pdpSavings": "d'économie",
+  "pdpAddToList": "Add item to list",
+  "pdpRemoveFromList":"Remove item from list",
+  "pdpValidFrom":"Valid from",
+  "pdpDetails": "Details",
+  "pdpClose": "Close PDP",
+  "disclaimer":
+  "In the event of disagreement between the flyer and this popup, the flyer shall take precedence.",
+  "shoppingList": {
+    "shoppingListPrint": "Print this page",
+    "shoppingListTitle": "Shopping List",
+    "productQuantityTitle": "Qty:",
+    "items": "items",
+    "shoppingListValidFrom": "Valid from",
+    "closeShoppingList": "Close shoppingList",
+    "deleteItem": "Trash",
+    "addItem": "Add Item",
+    "addItemPlaceholder": "Add an item to your list",
+    "noItemsInSLTitle":
+    "You currently have no items in your shopping list.",
+    "noItemsInSLMsg":
+    "Click on an item in the flyer to add it to your list or type it in below.",
+    "emailTitle": "Email Your Shopping List",
+    "emailWarning":
+    "We will not use your email address for future promotions or communications",
+    "emailPlaceholder": "Enter your email",
+    "emailErrorTitle": "Oops!",
+    "emailErrorMsg1": "Something went wrong on our end.",
+    "emailErrorMsg2": "We apologize for any inconvenience.",
+    "emailErrorMsg3": "Please try again later",
+    "send": "Send",
+    "emailSentTitle": "Email Your Shopping List",
+    "emailSentMessage": "Your shopping list has been sent.",
+    "emailSentMessage2": "Please wait a few minutes before it arrives.",
+    "emailSentResent": "Resend My List",
+    "clearTitle":
+    "Are you sure you want to delete all of your shopping list items ?",
+    "yes": "Yes",
+    "no": "No",
+    "clearDoneMessage": "All items have been removed from your list",
+    "clearClose": "Close",
+    "printDisclaimer":
+    "In the event of disagreement between the ad and this list, the ad shall take precedence."
+  },
+  "search": {
+    "noResultsMessage":
+    "We're sorry ! We couldn't find any search results for ",
+    "noResults": [
+      {
+        "title": "Check for typos",
+        "message":
+        "Catching the smallest typo can make the biggest difference!"
+      },
+      {
+        "title": "Limit keywords",
+        "message":
+        "For example, you'll get different results when you search for hamburger and beef"
+      },
+      {
+        "title": "Use category filter",
+        "message": "Clear your search and try the Category filter"
+      }
+    ]
+  },
+  "noFlyersMsg": "No flyers are available at the moment.",
+  "noFlyerSubText": "Please check again later.",
+
+  "errors": {
+    "dealNotFound": "Deal not found",
+    "somethingWrong": "Oops! Something went wrong.",
+    "noFlyersMsg": "No flyers are available at the moment.",
+    "noFlyerSubText": "Please check again later."
+  }
+}

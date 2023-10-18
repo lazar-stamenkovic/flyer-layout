@@ -1,0 +1,16 @@
+{
+  "api": "https://metrodigital-apim.azure-api.net/api",
+  "banner_id": "6141fa7157f8c212fc19dddc",
+  "apikey": "021027e7c41548bcba5d2315a155816b",
+  "api_version": "3.0",
+  "title": "Super-C",
+  "analytics": {
+    "type": "GTM",
+    "config": {
+      "id": "GTM-WRV6HLK"
+    },
+    "config-prod": {
+      "id": "GTM-WRV6HLK"
+    }
+  }
+}

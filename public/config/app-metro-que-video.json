@@ -1,0 +1,16 @@
+{
+  "api": "https://metrodigital-apim.azure-api.net/staging/api",
+  "banner_id": "62e3ee07ffe0e6f10778a56e",
+  "apikey": "0a112db32b2f42588b54063b05dfbc90",
+  "api_version": "3.0",
+  "title": "Metro Quebec",
+  "analytics": {
+    "type": "GTM",
+    "config": {
+      "id": "GTM-M2B4ZBL"
+    },
+    "config-prod": {
+      "id": "GTM-M2B4ZBL"
+    }
+  }
+}

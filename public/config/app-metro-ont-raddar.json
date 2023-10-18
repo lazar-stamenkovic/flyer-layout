@@ -1,0 +1,16 @@
+{
+  "api": "https://metrodigital-apim.azure-api.net/api/",
+  "banner_id": "62e3eddbffe0e6f10778a56d",
+  "apikey": "0a112db32b2f42588b54063b05dfbc90",
+  "api_version": "3.0",
+  "title": "Metro",
+  "analytics": {
+    "type": "GTM",
+    "config": {
+      "id": "GTM-TR6RF8C"
+    },
+    "config-prod": {
+      "id": "GTM-TR6RF8C"
+    }
+  }
+}

@@ -1,0 +1,249 @@
+{
+  "lang" : {
+    "en": {
+      "walkthrough": {
+        "filter-category": {
+          "title": "Category Filter",
+          "text": "Filter flyer products by category"
+        },
+        "filter-waysToSave": {
+          "title": "Ways to Save",
+          "text": "Ways to save on your favorite items"
+        }
+      }
+    },
+    "fr": {
+
+    }
+  },
+  "branding": {
+    "primaryColor": "#545454",
+    "secondaryColor": "#EE3124",
+    "tertiaryColor": "#00A651",
+    "accessKey": "?sv=2020-10-02&st=2022-01-01T19%3A19%3A00Z&se=2030-01-01T19%3A19%3A00Z&sr=s&sp=rl&sig=jSLmf5xZPH7Qmv4OTF7j7YMl0R5t91slBvvRm9DwfkM%3D",
+    "logo": {
+      "altText": "Metro QUE",
+      "size": {
+        "desktop": "https://metrocommonapi.blob.core.windows.net/74841/masterheadlogos/Desktop_SuperCv2_EN.jpg",
+        "mobile": "https://metrocommonapistaging.blob.core.windows.net/74865/masterheadlogos/"
+      }
+    },
+    "scrollArea": {
+      "scrollButton": {
+        "background": "#000000"
+      }
+    },
+    "helpScreenImage": "https://metrocommonapistaging.blob.core.windows.net/74865/helpScreenImages/helpscreen_eng_new.png",
+    "backgroundColor": null,
+    "font": null,
+    "disclaimerFont": null,
+    "landingPageMessage": null,
+    "walkthroughContent": "test walkthrough content EN",
+    "rewardsButtonTitle": "",
+    "cssVars" : {
+
+    }
+  },
+  "features": {
+    "filters": [
+      {
+        "name": "text",
+        "type": "searchbar",
+        "label": "Search Flyer",
+        "value": "",
+        "mode": "Normal",
+        "attrs" : {
+          "data-tour-item" : "search"
+        },
+        "_display": {
+          "mobile": {
+            "mode": "Mobile Search"
+          },
+          "tablet": {
+            "mode": "Tablet Search"
+          }
+        }
+      },
+      {
+        "name": "category",
+        "type": "dropdown",
+        "label": "Filter By",
+        "attrs" : {
+          "data-tour-item" : "filter-category"
+        },
+        "sections": [
+          {
+            "id": "productOrigin",
+            "title": "Local Product",
+            "loadFrom": "productOrigin",
+            "items": []
+          },
+          {
+            "id": "category",
+            "title": "Category",
+            "loadFrom": "categories",
+            "items": []
+          }
+        ],
+        "_display": {
+          "mobile": {
+            "label": "Mobile Search"
+          },
+          "tablet": {
+            "label": "Tablet Search"
+          }
+        }
+      },
+      {
+        "name": "waysToSave",
+        "type": "dropdown",
+        "label": "Ways To Save",
+        "attrs": {
+          "data-tour-item" : "filter-waysToSave"
+        },
+        "sections": [
+          {
+            "id": "waysToSave",
+            "title": "All",
+            "enableToggleAll": true,
+            "loadFrom": "waysToSave",
+            "items": []
+          }
+        ]
+      },
+      {
+        "name": "HealthyChoices",
+        "type": "dropdown",
+        "label": "My Health My Choices",
+        "sections": [
+          {
+            "id": "HealthyChoices",
+            "title": "All",
+            "loadFrom": "healthyChoices",
+            "enableToggleAll": true,
+            "items": []
+          }
+        ],
+        "styles": {
+          "--button-background": "#80BA27",
+          "--button-background-hover": "#74a924",
+          "--button-text-color": "#FFF",
+          "--button-text-color-hover": "var(--button-text-color)"
+        }
+      },
+      {
+        "name": "metroMoi",
+        "type": "dropdown",
+        "label": "",
+        "sections": [
+          {
+            "id": "HealthyChoices",
+            "format": "boolean",
+            "items": [
+              {
+                "id": "Points",
+                "label": "Points",
+                "checkbox": {
+                  "selected": false
+                }
+              },
+              {
+                "id": "RabaisMM",
+                "label": "Members Price",
+                "checkbox": {
+                  "selected": false
+                }
+              }
+            ]
+          }
+        ],
+        "styles": {
+          "--button-background": "url(/images/icon-Metro&Moi.svg) no-repeat 10px center/auto 1.1em",
+          "--button-background-hover": "#efefef var(--button-background)",
+          "--filter-arrow-color": "#EE3124",
+          "--filter-label-min-width": "104px"
+        }
+      }
+    ],
+    "filterPanel": {
+      "type": "inline",
+      "filters": [
+        "text",
+        "category",
+        "waysToSave",
+        "healthyChoices",
+        "metroMoi"
+      ]
+    },
+    "otherPublications": {
+      "enabled": true,
+      "mode": "drawer"
+    },
+    "toggleView": {},
+    "fullScreen": {
+      "enabled": true,
+      "postMessage": "fs"
+    },
+    "pdfDownload": true,
+    "pdp": {
+      "enabled": true,
+      "mode": "internal",
+      "post": {
+        "type": "ITEM_POP",
+        "item": {
+          "sku": "__product.sku",
+          "flyerTypeNameIdentifier": "flyer",
+          "publicationId": "__flyer.id",
+          "flyerId": "__flyer.flyerId",
+          "dealNumber": "__flyer.title",
+          "productBlockId": "__product.productBlockId",
+          "offerType": "Generic",
+          "productEn": "__product.productEn",
+          "productFr": "__product.productFr",
+          "mainCategoryEn": "__product.mainCategoryEn",
+          "mainCategoryFr": "__product.mainCategoryFr",
+          "subCategoryEn": "__product.subCategoryEn",
+          "subCategoryFr": "__product.subCategoryFr",
+          "description": "__product.description",
+          "productImage": "__product.productImage",
+          "salePrice": "__product.salePrice",
+          "regularPrice": "__product.regularPrice",
+          "alternatePriceFr": "__product.alternatePriceFr",
+          "alternatePrice": "__product.alternatePrice",
+          "promoUnitFr": "__product.promoUnitFr",
+          "priceQuantity": "__product.priceQuantity",
+          "pageNumber[int]": "__root.currentPageNumber",
+          "savingsFr": "__product.savingsFr",
+          "savingsPrefix": "__product.savingsPrefix",
+          "savingsSuffix": "__product.savingsSuffix",
+          "bodyEn": "__product.bodyEn",
+          "bodyFr": "__product.bodyFr",
+          "content": "__product.contents",
+          "validFrom[date]": "__flyer.startDate",
+          "validTo[date]": "__flyer.endDate"
+        }
+      }
+    },
+    "shoppingList": {
+      "enabled": true
+    },
+    "search": true,
+    "zoom": true,
+    "orientation": false,
+    "toast": false,
+    "dealEnding": false,
+    "landingPage": true,
+    "thumbnailsSize": false,
+    "helpScreen": true,
+    "walkthrough": true,
+    "pageNumberOnScroll": false,
+    "personalization": false,
+    "isLandingPageMessageVisible": false,
+    "masthead": {
+      "enabled": true
+    }
+  },
+  "header": {
+
+  }
+}

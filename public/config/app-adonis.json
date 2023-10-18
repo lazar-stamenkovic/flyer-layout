@@ -1,0 +1,18 @@
+{
+  "api": "https://apim2test.azure-api.net/api",
+  "banner_id": "63fe18ec3e7cd81e86393c61",
+  "apikey": "91e913fbd52d4cab91a6777ac2ef2022",
+  "title": "Adonis",
+  "favicon": "adonis.ico",
+  "analytics": [
+    {
+      "type": "GTM",
+      "config": {
+        "id": "GTM-PSFRW2WP"
+      },
+      "config-prod": {
+        "id": "GTM-PSFRW2WP"
+      }
+    }
+  ]
+}

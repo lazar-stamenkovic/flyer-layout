@@ -1,0 +1,27 @@
+{
+    "type": "ITEM_POP",
+    "item": {
+        "itemId": 507513914,
+        "name": "Selected Timothy's K-Cup Pods, 48-Ct",
+        "description": "53-3264-8/153-2138X",
+        "prePriceText": "NOW",
+        "priceText": "19.99",
+        "postPriceText": "ea",
+        "validFrom": "20200807T000000",
+        "validTo": "20200813T000000",
+        "category": "",
+        "imageUrl": "https://cdn.flippenterprise.net/page_items/197172466/1596143318/extra_large.jpg",
+        "sku": "53-3264-8/153-2138X",
+        "url": "https://www.canadiantire.ca/en/pdp/keurig-timothy-s-original-donut-blend-k-cup-pods-48-pk-0533264p.html",
+        "custom1": null,
+        "custom2": null,
+        "custom3": null,
+        "custom4": null,
+        "custom5": null,
+        "custom6": null,
+        "disclaimerText": null,
+        "saleStory": "Save 20%",
+        "flyerRunID": 584998,
+        "flyerTypeNameIdentifier": "flyer"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "api": "https://metrodigital-apim.azure-api.net/uat/api/",
+  "banner_id": "62015981ed29a2a604a206b4",
+  "apikey": "0defd42b9de9412488327864774fbfca",
+  "api_version":"3.0",
+  "title": "Food Basics",
+  "favicon": "foodBasics.ico",
+  "analytics": [
+    {
+      "type": "GTM",
+      "config": {
+        "id": "GTM-PL9LHQG"
+      },
+      "config-prod": {
+        "id": "GTM-P2GS4TS"
+      }
+    }]
+}

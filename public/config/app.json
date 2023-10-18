@@ -1,0 +1,33 @@
+{
+  "api": "https://ctc-digital-apim.azure-api.net/api",
+  "banner_id": "613a06b7c4795f61d430dc4b",
+  "apikey": "a1dc3c9530f0413597876ce664e934e1",
+  "api_version": "3.0",
+  "title": "CT Digital",
+  "favicon": "ctc.ico",
+  "offers_api_dev": {
+    "url": "https://ctcpersonalizationapi-u.azurewebsites.net/api",
+    "key": "P3r50n4l!z4t!0n4dm!nfr0mTC"
+  },
+  "offers_api": {
+    "url": "https://ctcpersonalizationapi.azurewebsites.net/api",
+    "key": "P3r50n4l!z4t!0n4dm!nfr0mTC"
+  },
+  "analytics": [
+    {
+      "type": "GTM",
+      "config": {
+        "id": "GTM-KW2H353"
+      },
+      "config-prod": {
+        "id": "GTM-TR6RF8C"
+      }
+    },
+    {
+      "type": "QM",
+      "config": {
+        "src": "https://cdn.quantummetric.com/qscripts/quantum-canadiantireodp.js"
+      }
+    }
+  ]
+}

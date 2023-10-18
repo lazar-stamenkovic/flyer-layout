@@ -1,0 +1,60 @@
+:root {
+  --button-background: var(--background-color);
+  --button-background-hover: #eee;
+  --button-background-active: var(--button-background-hover);
+  --button-background-active-hover: var(--button-background-hover);
+  --button-text-color: var(--text-color);
+  --button-text-color-hover: var(--button-text-color);
+  --button-text-color-active: var(--button-text-color-hover);
+  --button-text-color-active-hover: var(--button-text-color-hover);
+  --button-border-radius: 4px;
+  --button-border: 1px solid var(--accent-color);
+}
+
+button, .btn {
+
+  border: var(--button-border);
+  padding: 5px;
+
+  min-height: 34px;
+  min-width: 34px;
+
+  transition: none;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--button-background);
+  color: var(--button-text-color);
+  border-radius: var(--button-border-radius);
+  &:hover{
+	/*backdrop-filter: brightness(90%);*/
+    filter: brightness(90%);
+	//background: var(--button-background-hover);
+	color: var(--button-text-color-hover);
+  }
+  &.selected, &.active{
+    background: var(--primary-color) !important;
+    color: var(--primary-text-color) !important;
+    &:hover{
+      background: var(--button-background-active-hover);
+      color: var(--button-text-color-active-hover);
+    }
+  }
+  svg, img, image {
+    backface-visibility: initial;
+    transform: initial;
+    image-rendering: initial;
+  }
+  &[disabled]{
+    pointer-events: none;
+    opacity: .5;
+  }
+
+  &.text-label{
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+}

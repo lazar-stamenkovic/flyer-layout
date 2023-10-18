@@ -1,0 +1,41 @@
+[
+  {
+    "dealNum": 340,
+    "startDate": "2020-09-25",
+    "endDate": "2020-10-01",
+    "isPreview": false,
+    "linkUrl": "https://tcflyer02.azurewebsites.net"
+  },
+  {
+    "dealNum": 341,
+    "startDate": "2020-10-02",
+    "endDate": "2020-10-08",
+    "isPreview": true,
+    "linkUrl": "https://tcflyer04.azurewebsites.net"
+  },
+  {
+    "dealNum": 342,
+    "startDate": "2020-10-09",
+    "endDate": "2020-10-15",
+    "isPreview": true,
+    "linkUrl": "https://tcflyer03.azurewebsites.net"
+  },
+  {
+    "dealNum": 1137,
+    "startDate": "2020-09-04",
+    "endDate": "2020-10-1",
+    "isPreview": false,
+    "linkUrl": "https://tcflyer01.azurewebsites.net",
+    "enTitle": "The Outsiders",
+    "frTitle": "En pleine nature"
+  },
+  {
+    "dealNum": 1140,
+    "startDate": "2020-09-25",
+    "endDate": "2020-10-15",
+    "isPreview": false,
+    "linkUrl": "https://tcflyer06.azurewebsites.net",
+    "enTitle": "Fall Inspirations",
+    "frTitle": "Inspirations automne"
+  }
+]

@@ -1,0 +1,207 @@
+{
+    "id": "legalpage",
+    "flyerId": "5f3be03513298a06871896ca",
+    "name": "1",
+    "documentName": "DE0335_01_DigExp.indd",
+    "inDesignId": 14517,
+    "index": 1,
+    "width": 0,
+    "height": 0,
+    "isAdPage": true,
+    "basebars": {
+        "desktop": {
+            "id": null,
+            "name": null,
+            "image": null,
+            "visible": false
+        },
+        "tablet": {
+            "id": null,
+            "name": null,
+            "image": null,
+            "visible": false
+        },
+        "mobile": {
+            "id": null,
+            "name": null,
+            "image": null,
+            "visible": false
+        }
+    },
+    "type": {
+        "id": null,
+        "pageTypeName": null,
+        "layout": 0,
+        "unitWidth": 464.4,
+        "unitHeight": 129,
+        "grids": {
+            "desktop": {
+                "rowCount": 1,
+                "colCount": 1,
+                "totalBlocks": 1,
+                "type": 0,
+                "name": "Desktop",
+                "gridName": null
+            },
+            "tablet": {
+                "rowCount": 1,
+                "colCount": 1,
+                "totalBlocks": 1,
+                "type": 1,
+                "name": "Tablet",
+                "gridName": null
+            },
+            "mobile": {
+                "rowCount": 1,
+                "colCount": 1,
+                "totalBlocks": 1,
+                "type": 2,
+                "name": "Mobile",
+                "gridName": null
+            }
+        }
+    },
+    "blocks": [
+        {
+            "id": "leg1",
+            "pageId": "5f3c1010e58e97d25a286fc3",
+            "flyerId": "5f3be03513298a06871896ca",
+            "dataBlockId": null,
+            "documentName": "DE0335_01_DigExp.indd",
+            "pageName": "1",
+            "name": "DE0335_01_DigExp.indd_P1_B0",
+            "inDesignPageId": 14517,
+            "inDesignId": 23700,
+            "image": "DE0335_01_DigExp.indd_P1_B0_96.jpeg",
+            "imageWidth": 0,
+            "imageHeight": 0,
+            "colSpan": 1,
+            "rowSpan": 1,
+            "products": [],
+            "images": [
+                {
+                    "resolution": 300,
+                    "image": "legals/@300/Legal.jpg"
+                },
+                {
+                    "resolution": 150,
+                    "image": "legals/@200/Legal.jpg"
+                },
+                {
+                    "resolution": 96,
+                    "image": "legals/@100/Legal.jpg"
+                }
+            ],
+            "localIndex": 0,
+            "text": "",
+            "placement": {
+                "desktop": {
+                    "order": 0,
+                    "visible": true
+                },
+                "tablet": {
+                    "order": 0,
+                    "visible": false
+                },
+                "mobile": {
+                    "order": 0,
+                    "visible": false
+                }
+            }
+        },
+        {
+            "id": "leg1",
+            "pageId": "5f3c1010e58e97d25a286fc3",
+            "flyerId": "5f3be03513298a06871896ca",
+            "dataBlockId": null,
+            "documentName": "DE0335_01_DigExp.indd",
+            "pageName": "1",
+            "name": "DE0335_01_DigExp.indd_P1_B0",
+            "inDesignPageId": 14517,
+            "inDesignId": 23700,
+            "image": "DE0335_01_DigExp.indd_P1_B0_96.jpeg",
+            "imageWidth": 0,
+            "imageHeight": 0,
+            "colSpan": 1,
+            "rowSpan": 1,
+            "products": [],
+            "images": [
+                {
+                    "resolution": 300,
+                    "image": "legals/@300/Legal2.jpg"
+                },
+                {
+                    "resolution": 150,
+                    "image": "legals/@200/Legal2.jpg"
+                },
+                {
+                    "resolution": 96,
+                    "image": "legals/@100/Legal2.jpg"
+                }
+            ],
+            "localIndex": 0,
+            "text": "",
+            "placement": {
+                "desktop": {
+                    "order": 0,
+                    "visible": false
+                },
+                "tablet": {
+                    "order": 0,
+                    "visible": true
+                },
+                "mobile": {
+                    "order": 0,
+                    "visible": false
+                }
+            }
+        },
+        {
+            "id": "leg1",
+            "pageId": "5f3c1010e58e97d25a286fc3",
+            "flyerId": "5f3be03513298a06871896ca",
+            "dataBlockId": null,
+            "documentName": "DE0335_01_DigExp.indd",
+            "pageName": "1",
+            "name": "DE0335_01_DigExp.indd_P1_B0",
+            "inDesignPageId": 14517,
+            "inDesignId": 23700,
+            "image": "DE0335_01_DigExp.indd_P1_B0_96.jpeg",
+            "imageWidth": 0,
+            "imageHeight": 0,
+            "colSpan": 1,
+            "rowSpan": 1,
+            "products": [],
+            "images": [
+                {
+                    "resolution": 300,
+                    "image": "legals/@300/Legal3.jpg"
+                },
+                {
+                    "resolution": 150,
+                    "image": "legals/@200/Legal3.jpg"
+                },
+                {
+                    "resolution": 96,
+                    "image": "legals/@100/Legal3.jpg"
+                }
+            ],
+            "localIndex": 0,
+            "text": "",
+            "placement": {
+                "desktop": {
+                    "order": 0,
+                    "visible": false
+                },
+                "tablet": {
+                    "order": 0,
+                    "visible": false
+                },
+                "mobile": {
+                    "order": 0,
+                    "visible": true
+                }
+            }
+        }
+    ]
+}

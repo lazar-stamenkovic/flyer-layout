@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #545454;
+  --secondary-color: #EE3124;
+  --tertiary-color: #00A651;
+  --background-color: #fff;
+  --foreground-color: #000;
+  --text-color: #000;
+  --accent-color: #AFAFAF;
+
+
+  /**
+  List Variables
+   */
+  --list-item-select-color: var(--tertiary-color);
+
+  /**
+  Scroll Bars
+   */
+  --scrollbar-thickness: 8px;
+  --scrollbar-border-radius: 4px;
+  --scrollbar-track-color: initial;
+  --scrollbar-track-border-radius: var(--scrollbar-border-radius);
+  --scrollbar-track-thickness: var(--scrollbar-thickness);
+  --scrollbar-thumb-thickness:var(--scrollbar-thickness);
+  --scrollbar-thumb-color: initial;
+  --scrollbar-thumb-border-radius: var(--scrollbar-border-radius);
+  --scrollbar-button: initial;
+
+
+}

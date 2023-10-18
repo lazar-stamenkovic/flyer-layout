@@ -1,0 +1,29 @@
+.drawer-container.header{
+  padding: 1em;
+  background-color: #F2F2F2;
+  justify-content: center;
+  box-shadow: 0px 0px 3px 0px #000 inset;
+}
+
+.drawer-container.left {
+  display: flex;
+}
+
+::-webkit-scrollbar{
+  width: var(--scrollbar-thickness);
+  height: var(--scrollbar-thickness);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--scrollbar-track-color);
+  border-radius: var(--scrollbar-track-border-radius);
+  width: var(--scrollbar-track-thickness);
+  height: var(--scrollbar-track-thickness);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-thumb-color);
+  width: var(--scrollbar-thumb-thickness);
+  height: var(--scrollbar-thumb-thickness);
+  border-radius: var(--scrollbar-thumb-border-radius);
+}

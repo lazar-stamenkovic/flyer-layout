@@ -1,0 +1,19 @@
+{
+  "api": "https://rexalldigital-apim.azure-api.net/staging/api",
+  "banner_id": "648c658fe1260d9cfe8de709",
+  "apikey": "a37b50866e584662b98cab7c2c87bf00",
+  "api_version": "3.0",
+  "title": "Rexall",
+  "favicon": "rexall.ico",
+  "analytics": [
+    {
+      "type": "GTM",
+      "config": {
+        "id": "GTM-5RDF7LTM"
+      },
+      "config-prod": {
+        "id": "GTM-5RDF7LTM"
+      }
+    }
+  ]
+}

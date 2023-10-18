@@ -1,0 +1,17 @@
+@import "variables";
+@import "buttons";
+@import "drawers";
+@import "@/features/offers/css/offers.scss";
+
+body{
+  background-color: white;
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+}
+
+.main-lr-wrapper {
+  display: flex;
+  flex-grow: 1;
+}
